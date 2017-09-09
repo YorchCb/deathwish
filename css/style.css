@@ -1,0 +1,128 @@
+/* Fonts */
+@font-face {
+  font-family: Thron;
+  src: url('../fonts/Thron.otf');
+}
+
+/* Partes de la web */
+*{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+
+}
+
+header{
+	position: fixed;
+	width: 100%;
+
+}
+
+body{
+	background-color: white;
+}
+footer{
+	background-color: black;
+	color: white;
+}
+
+/* ID */
+#Menu{
+		padding-top: 15px;
+		padding-bottom: 15px;
+		background-color: white;
+		text-align:center;
+		word-spacing: 7px;
+
+	}
+
+
+#Logo{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: black;
+}
+
+#Reglas{
+	padding-top: 65px;
+	padding-bottom: 65px;
+	font-size: 30px;
+
+}
+
+#Galeria{
+	padding-top: 65px;
+	padding-bottom: 65px;
+	
+}
+
+#Informacion{
+	padding-top: 65px;
+	padding-bottom: 65px;
+	
+}
+
+#Reclutamiento{
+	padding-top: 65px;
+	padding-bottom: 65px;
+	
+}
+
+#Miembros{
+	padding-top: 65px;
+	padding-bottom: 65px;
+	
+}
+
+#Guias{
+	padding-top: 65px;
+	padding-bottom: 65px;
+
+}
+
+#Inicio{
+	padding-top: 65px;
+	padding-bottom: 65px;
+	
+}
+
+
+/* Links */
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	color: red;
+	text-decoration: none;
+}
+
+p2{
+	font-family:Thron;
+	font-size: 50px;
+}
+
+p{
+	font-family:Thron;
+	font-size: 80px;
+}
+
+p3{
+	font-family:Thron;
+	color: white;
+	font-size: 25px;
+}
+
+/* Atributos */
+
+.img-responsive{ 
+    width:100%;
+}
+
+@media handheld, only screen and (max-width: 767px) {
+.hide-xs{
+display:none;
+}
+}
